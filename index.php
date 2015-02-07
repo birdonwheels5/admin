@@ -47,9 +47,9 @@
 						...
 						
 						<form action="upload.php" method="post" enctype="multipart/form-data">
-							Select image to upload:
+							Select file to upload:
 							<input type="file" name="fileToUpload" id="fileToUpload">
-							<input type="submit" value="Upload Image" name="submit">
+							<input type="submit" value="Upload File" name="submit">
 						</form>
 						
 						<br/>
@@ -62,52 +62,52 @@
 						</tr>
 							<tr>
 								<td>Insight</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:3000"); ?></td>
+								<td><?php is_service_up("http://192.168.1.120:3000"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>MYR Sha256</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5578"); ?></td>
+								<td><?php is_service_up("http://192.168.1.120:5578"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>MYR Skein</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5589"); ?></td>
+								<td><?php is_service_up("http://192.168.1.120:5589"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>MYR Groestl</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:3333"); ?></td>
+								<td><?php is_service_up("http://192.168.1.120:3333"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>MYR Qubit</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5567"); ?></td>
+								<td><?php is_service_up("http://192.168.1.120:5567"); ?></td>
 							</tr>
 							
-							<tr>
+							<!-- <tr>
 								<td>DGB Sha256</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5011"); ?></td>
+								<td><?php //is_service_up("http://192.168.1.120:5011"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>DGB Skein</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5031"); ?></td>
+								<td><?php //is_service_up("http://192.168.1.120:5031"); ?></td>
 							</tr>
 							
 							<tr>
 								<td>DGB Groestl</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5021"); ?></td>
-							</tr>
+								<td><?php //is_service_up("http://192.168.1.120:5021"); ?></td>
+							</tr> 
 							
 							<tr>
 								<td>DGB Qubit</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org:5041"); ?></td>
-							</tr>
+								<td><?php //is_service_up("http://192.168.1.120:5041"); ?></td>
+							</tr> -->
 							
 							<tr>
 								<td>Private Website</td>
-								<td><?php is_service_up("http://birdonwheels5.no-ip.org"); ?></td>
+								<td><?php is_service_up("https://192.168.1.120"); ?></td>
 							</tr>
 							
 							<tr>
